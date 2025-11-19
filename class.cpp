@@ -381,4 +381,502 @@ int main(){
 // }while()
 
 
+
+// FOR LOOP
+// 2 to 50
+// for(int i=2; i<=50; i++){
+//     cout<<i<<" ";
+//     i++;
+// }
+
+// 1 to X
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// for(int i=1; i<=n; i++){
+//     cout<<i<<" ";
+// }
+
+
+// ADD X TO Y(check)
+// int x;
+// cout<<"enter x: ";
+// cin>>x;
+// int y;
+// cout<<"enter y: ";
+// cin>>y;
+// for(int i=x; i<=y; i++){
+//     cout<<x+y<<" ";
+// }
+
+// TABLE 
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// for(int i=n*1; i<=10*n; i+=n){
+//     cout<<i<<" ";
+// }
+
+// SUM OF DIGIT(check)
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// int sum = 0;
+// for(int i=1; i<=n; i++){
+//     int ld=n%10;
+//     sum = sum +ld;
+//     n= n/10;
+// }
+// cout<<sum;
+
+// PRODUCT
+// int p=1;
+// for(int i=1; i<=5; i++){
+//     p= p*i;
+    
+// }
+// cout<<p;
+
+// DIVISIBLE BY 11
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// for(int i=1; i<=n; i++){
+//     if((i%11)==0){
+//         cout<<i<<" ";
+//     }
+// }
+
+// FIBONACCI SERIES
+// int a=0, b=1, c, n;
+// cout<<"enter n: ";
+// cin>>n;
+// cout<<a <<" ";
+// cout<<b <<" ";
+// for(int i=1; i<=(n-2); i++){
+//     c=a+b;
+//     cout<<c<<" ";
+//     a=b;
+//     b=c;
+// }
+
+// PATTERN PRINTING
+// STAR .
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// int m;
+// cout<<"enter m: ";
+// cin>>m;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=m; j++){
+//         cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+// STAR RECTANGLE
+// int n;
+// cout<<"enter row: ";
+// cin>>n;
+// int m;
+// cout<<"enter column: ";
+// cin>>m;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=m; j++){
+//         cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER RECTANGLE
+// int n;
+// cout<<"enter row: ";
+// cin>>n;
+// int m;
+// cout<<"enter column: ";
+// cin>>m;
+// for(int i=1; i<=n; i++ ){
+//     for(int j=1; j<=m; j++){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+
+//  NUMBER RECTANGLE(DIFFERENT ROW)
+// int n;
+// cout<<"enter row: ";
+// cin>>n;
+// int m;
+// cout<<"enter column: ";
+// cin>>m;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=m; j++){
+//         cout<<j<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER RECTANGLE  (check )
+// int n;
+// cout<<"enter row: ";
+// cin>>n;
+// int m;
+// cout<<"enter column: ";
+// cin>>m;
+// for(int i=1; i<=n; i++){
+//     for(int j=1; j<=m; j--){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+// STAR TRIANGLE
+// for(int i=1; i<=5; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+// NUMBER TRIANGLE
+// for(int i=1; i<=5; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE(column same)
+// for(int i=1; i<=5; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<j<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE(reverse)
+    // for(int i=1; i<=5; i++){
+    //     for(int j=1; j<=i;j++){
+    //         cout<<5-i+1<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+// NUMBER TRIANGLE
+// for(int i=1; i<=5; i++){
+//     for(int j=1; j<=i; j++){
+//         cout<<5-j+1<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+// STAR TRIANGLE ULTA
+// for(int i=1; i<=5; i++){
+//     for(int j=5; j>=i; j--){
+//         cout<<"*"<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE ULTA
+// for(int i=1; i<=5; i++){
+//     for(int j=5; j>=i; j--){
+//         cout<<i<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE REVERSE
+// for(int i=1; i<=5; i++){
+//     for(int j=5; j>=i; j--){
+//         cout<<j<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE SAME COLUMN
+// for(int i=1; i<=5; i++){
+//     for(int j=5; j>=i; j--){
+//         cout<<5-i+1<<" ";
+//     }
+//     cout<<endl;
+// }
+
+// NUMBER TRIANGLE SAME ROW
+// for(int i=1; i<=5; i++){
+//     for(int j=5; j>=i; j--){
+//         cout<<5-j+1<<" ";
+//     }
+//     cout<<endl;
+// }
+
+
+// JUMP IN LOOPS
+// PRINT 1 TO 10 EXCEPT 5
+// for(int i=1; i<=10; i++){
+//     if(i==5){
+//         continue;
+//     }
+//     cout<<i<<" ";
+// }
+
+// 1 2 2 1 
+// for(int i=1; i<=2; i++){
+//     for(int j=1; j<=2; j++){
+//         if(i==j){
+//             continue;
+//         }
+//         cout<<i<<" "<<j<<" ";
+//     }
+// }
+
+// BREAK
+// PRIME NUMBER
+// int n;
+// cout<<"Enter n: ";
+// cin>>n;
+// int i;
+// for(int i=2; i<n; i++){
+//     if((n%i)==0){
+//         cout<<"not prime";
+//         break;
+//     }
+// }
+// if(n==i){
+//     cout<<"prime";
+// }
+
+// DIFFERENT  (check)
+// int n;
+// cin>>n;
+// int count=0;
+// for(int i=2; i<n; i++){
+//     if(n%i==0){
+//         count++;
+//     }
+// }
+// if(n==i){
+//     count++;
+// }
+
+
+//ARRAYS
+// INPUT ARRAY AND PRINT ARRAY
+// int a[5];
+// cin>>a[5];
+// for(int i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// for(int i=0; i<5; i++){
+//     cout<<a[i];
+// }
+
+// ALL EVEN AND ALL ODD
+// int a[5],i, es=0;
+// int os=0;
+// for(i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// for(i=0; i<5; i++){
+//     if(a[i]%2==0){
+//         es=es+a[i];
+//     }
+//     else{
+//         os=os+a[i];
+//     }
+// }
+// cout<<es;
+// cout<<os;
+
+// INDEX
+// int a[5],i, es=0;
+// int os=0;
+// for(i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// for(i=0; i<5; i++){
+//     if(i%2==0){
+//         es=es+a[i];
+//     }
+//     else{
+//         os=os+a[i];
+//     }
+// }
+// cout<<es;
+// cout<<os;
+
+// BIGGEST ONE
+// int a[5],i,big;
+// for(int i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// big=a[0];
+// for(int i=0; i<5; i++){
+//     if(a[i]>big){
+//         big=a[i];
+//     }
+// }
+
+// SMALLEST AND ITS LOCATION 
+// int a[5],i,small;
+// int loc;
+// for(i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// small=a[0];
+// loc=0;
+// for(int i=0; i<5; i++){
+//     if(a[i]<small){
+//         small=a[i];
+//          loc=i;
+//     } 
+// }
+// cout<<"the small no. is: "<<small <<" at location:  "<<loc+1;
+
+
+// LINEAR SEARCH 
+// int n;
+// cout<<"enter n: ";
+// cin>>n;
+// int a[5],i,item;
+// for(i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// cin>>item;
+// for(i=0; i<5; i++){
+//     if(a[i]==item){
+//         cout<<"item found at loc: "<<i++;
+//         break;
+//     }
+// }
+// if(i==item){
+//     cout<<"not found";
+// }
+
+// ITEM PRESENT TWO TIMES
+// int a[5],i,item,c=0;
+// for(i=0; i<5; i++){
+//     cin>>a[i];
+// }
+// cin>>item;
+// for(i=0; i<5; i++){
+//     if(a[i]==item){
+//         cout<<"item found at loc: "<<i++;
+//         c++;
+//     }
+// }
+// if(c==0){
+//     cout<<"not found";
+// }
+
+
+// 2D ARRAY
+// PRINT 2D ARRAY
+// int arr[3][3] = {{7,1,2},{6,3,4}};
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<=2; j++){
+//         cin>>arr[i][j]<<" ";
+//     }
+// }
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<3; j++){
+//         cin>>arr[i][j]<<" ";
+//     }
+//     cout<<"\n";
+// }
+
+// ADD OF TWO MATRIX
+// int a[2][2];
+// int b[2][2];
+// int c[2][2];
+// for(int i=0; i<2; i++){
+//     for(int j=0; j<2; j++){
+//         cin>>a[i][j];
+//         cin>>b[i][j];
+//     }
+// }
+// for(int i=0; i<2; i++){
+//     for(int j=0; j<2; j++){
+//         c[i][j] = a[i][j] + b[i][j];
+//         cout<< c[i][j]<<" ";
+//     }
+//     cout<<"\n";
+// }
+
+// BIGGEST NUMBER OF THE MATRIX(check)
+// int a[3][3];
+// int big;
+// for(int i=0; i<=3; i++){
+//     for(int j=0; j<=3; j++){
+//         cin>>a[i][j];
+//     }
+// }
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<3; j++){
+//         if(a[i][j]>big){
+//             cout<<a[i][j]<<" ";
+//         }
+//     }
+//     cout<<"\n";
+// }
+
+// MULTIPLICATION OF TWO MATRIX SAME MATRIX
+// int a[3][3];
+// int b[3][3];
+// int c[3][3];
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<3; j++){
+//         cin>>a[i][j];
+//     }
+// }
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<3; j++){
+//         cin>>b[j][i];
+//     }
+// }
+// for(int i=0; i<3; i++){
+//     for(int j=0; j<3; j++){
+//         c[i][j] = a[i][j] * b[i][j];
+//         cout<<c[i][j]<<" ";
+
+//     }
+//     cout<<"\n";
+// }
+
+
+// multiplication of different order matrix
+// int a[2][3];
+// int b[3][4];
+// int c[2][4];
+// for(int i=0; i<2; i++){
+//     for(int j=0; j<4; j++){
+//         cin>>a[i][j];
+//         cin>>b[i][j];
+//     }
+//     cout<<"\n";
+// }
+// for(int i=0; i<2; i++){
+//     for(int j=0; j<4; j++){
+//         c[i][j]=0;
+//         for(int k=0; k<3; k++){
+//             c[i][j] =  c[i][j] + a[i][k] * b[k][j];
+//         }
+//         cout<<c[i][j]<<" ";
+//     }
+//     cout<<"\n";
+// }
+
+
+
+
+
+
+
+
+
 }
