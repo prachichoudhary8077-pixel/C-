@@ -492,6 +492,85 @@
 //     *p2 = t;
 // }
 
+//  RECURSION
+//  FACTORIAL
+// #include<iostream>
+// using namespace std;
+// int fact(int n){
+//     if(n==1){
+//         return(1);
+//     }
+//     else{ 
+//         return(n*fact(n-1));
+//     }
+// }
+// int main(){
+//     int n,r;
+//     cout<<"enter n: ";
+//     cin>>n;
+//     r = fact(n);
+//     cout<<r;
+// }
+
+// to print fibanicci series by recursion
+// #include<iostream>
+// using namespace std;
+// int fib(int n){
+//     if(n==0){
+//         return(0);
+//     }
+//     if(n==1){
+//         return(1);
+//     }
+//     else{
+//         return(fib(n-1) + fib(n-2));
+//     }
+// }
+// int main(){
+//     int n;
+//     cout<<"enter n: ";
+//     cin>>n;
+//     for(int i=0; i<n; i++){
+//         int r = fib(i);
+//         cout<<r<<" ";
+//     }
+// }
 
 
+// BINARY SEARCH
+#include <iostream>
+using namespace std;
 
+int binarySearch(int arr[], int size, int target) {
+    int start = 0, end = size - 1;
+
+    while(start <= end) {
+        int mid = (start + end) / 2;
+
+        if(arr[mid] == target)
+            return mid; // Found element
+
+        else if(arr[mid] < target)
+            start = mid + 1; // Search right side
+
+        else
+            end = mid - 1; // Search left side
+    }
+
+    return -1; // Not found
+}
+
+int main() {
+    int arr[] = {2, 5, 8, 12, 16, 23, 38};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    int target = 23;
+
+    int result = binarySearch(arr, size, target);
+
+    if(result != -1)
+        cout << "Element found at index: " << result;
+    else
+        cout << "Element not found";
+
+    return 0;
+}
